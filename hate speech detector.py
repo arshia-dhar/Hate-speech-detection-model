@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-tweet_df = pd.read_csv('hateDetection_train1.csv')
+tweet_df = pd.read_csv('hateDetection_train.csv') #replace with filename of your dataset
 
 
 def data_processing(tweet):
